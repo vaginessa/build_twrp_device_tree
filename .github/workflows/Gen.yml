@@ -1,14 +1,14 @@
-name: 生成TWRP设备树
+name: TWRP Device Tree
 
 on:
   workflow_dispatch:
     inputs:
       PY:
-        description: 'Python3版本（推荐3.6/3.9）'
+        description: 'Python3 version（recommended 3.6/3.9）'
         required: true
         default: '3.9'
       IMG:
-        description: 'IMG直链'
+        description: 'IMG direct link'
         required: true
         default: ''
 jobs:
